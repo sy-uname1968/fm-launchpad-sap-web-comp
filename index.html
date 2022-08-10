@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor Launchpad</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="/main.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <ui5-shellbar primary-title="Frontend Mentor Launchpad">
+        <ui5-avatar slot="profile" icon="customer"></ui5-avatar>
+      </ui5-shellbar>
+    </header>
+    <ui5-tabcontainer>
+      <ui5-tab text="Newbie" class="tab" icon="hello-world">
+        <div class="card-container">
+          <ui5-card class="small">
+            <ui5-card-header slot="header" title-text="Four card feature section" ></ui5-card-header>
+            <div class="card-content">
+              <h5>App description</h5>
+              <p class="app-description">Plain html and CSS. Is responsive with mobile first approach. Main content is three div(s) in container with display: flex. Images are moved to right with display: block and left auto margin. Card colored borders are done with ::after element and position: absolute.  Card itself contains overflow: hidden to take into account border radius.</p>
+            </div>
+            <div class="links">
+              <ui5-link href="https://sy-uname1968.github.io/fm-4card-feature-section/" target="_blank">App</ui5-link>
+              <ui5-link href="https://github.com/sy-uname1968/fm-4card-feature-section" target="_blank">GitHub</ui5-link>
+            </div>
+          </ui5-card>
+          <ui5-card class="small">
+            <ui5-card-header slot="header" title-text="Order summary component" ></ui5-card-header>
+            <div class="card-content">
+              <h5>App description</h5>
+              <p class="app-description">Plain html and CSS. Has good example of setting background properties. Also see fitting image to the top of the card. Contains examples of button handling and changing cursor format for hover effect.</p>
+            </div>
+            <div class="links">
+              <ui5-link href="https://sy-uname1968.github.io/fm-order-summary/" target="_blank">App</ui5-link>
+              <ui5-link href="https://github.com/sy-uname1968/fm-order-summary" target="_blank">GitHub</ui5-link>
+            </div>
+          </ui5-card>
+          <ui5-card class="small">
+            <ui5-card-header slot="header" title-text="3-column preview card component" ></ui5-card-header>
+            <div class="card-content">
+              <h5>App description</h5>
+              <p class="app-description">Plain html and CSS. Has started using CSS variables for colors.  Another example of positioning image in layout with object-fit: none and margin-right: auto. Finally, “Learn more” button inside flexbox card always sticks to the bottom regardless of card content with margin-top: auto.</p>
+            </div>
+            <div class="links">
+              <ui5-link href="https://sy-uname1968.github.io/fm-3-column-preview-card/" target="_blank">App</ui5-link>
+              <ui5-link href="https://github.com/sy-uname1968/fm-3-column-preview-card" target="_blank">GitHub</ui5-link>
+            </div>
+          </ui5-card>
+          <ui5-card class="small">
+            <ui5-card-header slot="header" title-text="Stats preview card component" ></ui5-card-header>
+            <div class="card-content">
+              <h5>App description</h5>
+              <p class="app-description">Plain html and CSS. Has used “display: none” to change picture position and path for desktop and mobile version. Also can be used as example for setting background for a picture. Text is manipulated with line-hight, letter-spacing and text-transform properties.</p>
+            </div>
+            <div class="links">
+              <ui5-link href="https://sy-uname1968.github.io/fm-stats-preview-card/" target="_blank">App</ui5-link>
+              <ui5-link href="https://github.com/sy-uname1968/fm-stats-preview-card" target="_blank">GitHub</ui5-link>
+            </div>
+          </ui5-card>
+          <ui5-card class="small">
+            <ui5-card-header slot="header" title-text="Interactive rating component" ></ui5-card-header>
+            <div class="card-content">
+              <h5>App description</h5>
+              <p class="app-description">Html CSS and some <strong class="color-red">JS</strong>.  Done with two pages and button is &lta&gt tag.  Data between pages is passed with URLSearchParams. For keeping VS Code autocomplete for e.target methods and attributes use <i>if (e.target instanceof Element){…}</i> expression. </p>
+            </div>
+            <div class="links">
+              <ui5-link href="https://sy-uname1968.github.io/fm-interactive-rating-component/" target="_blank">App</ui5-link>
+              <ui5-link href="https://github.com/sy-uname1968/fm-interactive-rating-component" target="_blank">GitHub</ui5-link>
+            </div>
+          </ui5-card>
+          <ui5-card class="small">
+            <ui5-card-header slot="header" title-text="Social proof section" ></ui5-card-header>
+            <div class="card-content">
+              <h5>App description</h5>
+              <p class="app-description">Plan html and CSS. Contains example of background with two images. For shifting elements from their natural position use transform: translateX(…) || translateY(…).</p>
+            </div>
+            <div class="links">
+              <ui5-link href="https://sy-uname1968.github.io/fm-social-proof-section/" target="_blank">App</ui5-link>
+              <ui5-link href="https://github.com/sy-uname1968/fm-social-proof-section" target="_blank">GitHub</ui5-link>
+            </div>
+          </ui5-card>
+          <ui5-card class="small">
+            <ui5-card-header slot="header" title-text="Intro component with sign-up form" ></ui5-card-header>
+            <div class="card-content">
+              <h5>App description</h5>
+              <p class="app-description">Html CSS and some <strong class="color-red">JS</strong>. Good example for form elements and form validation. Input placeholder styling with .input::placeholder selector. One more example of background settings.</p>
+            </div>
+            <div class="links">
+              <ui5-link href="https://sy-uname1968.github.io/fm-component-with-sign-up-form/" target="_blank">App</ui5-link>
+              <ui5-link href="https://github.com/sy-uname1968/fm-component-with-sign-up-form" target="_blank">GitHub</ui5-link>
+            </div>
+          </ui5-card>
+        </div>
+      </ui5-tab>
+      <ui5-tab text="Junior" class="tab" icon="collaborate">
+        <div class="card-container">
+          <ui5-card class="small">
+            <ui5-card-header slot="header" title-text="Intro section with dropdown navigation" ></ui5-card-header>
+            <div class="card-content">
+              <h5>App description</h5>
+              <p class="app-description">Html CSS and <strong class="color-red">JS</strong>.  First use of &ltpicture&gt tag. Also first example of navbar and hamburger menu for mobile screen size.  Also, first use of data attributes in html for basic state management. JS contains example of handling Boolean data attributes.  Flexible distribution of nav bar items horizontally is achieved with <i>:last-child</i> and  <i>:nth-child</i> attributes. To detect in JS if we are in desktop view I checked for element style ( display: none ) through <i>getComputedStyle(…)</i>.</p>
+            </div>
+            <div class="links">
+              <ui5-link href="https://sy-uname1968.github.io/fm-intro-with-drop-down-nav/" target="_blank">App</ui5-link>
+              <ui5-link href="https://github.com/sy-uname1968/fm-intro-with-drop-down-nav" target="_blank">GitHub</ui5-link>
+            </div>
+          </ui5-card>
+          <ui5-card class="small">
+            <ui5-card-header slot="header" title-text="Advice generator app" ></ui5-card-header>
+            <div class="card-content">
+              <h5>App description</h5>
+              <p class="app-description">Html CSS and <strong class="color-red">JS</strong>.  First use of api call.  Button spin is achieved with <i>transform: rotate(360deg);</i>. Another use of &ltpicture&gt tag.  Used <i> content: open-quote;</i> and <i>content: close-quote;</i> for pseudo elements ::before and ::after of advice main text. First use of <i>import</i> in JS. For project initialization and building used <strong>vite</strong>. Pls note vite.config.js file for vite build configuration. Pls also note special git-hub deployment command <i>"deploy": "gh-pages -d dist"</i> in package.json.</p>
+            </div>
+            <div class="links">
+              <ui5-link href="https://sy-uname1968.github.io/fm-advice-generator-app/" target="_blank">App</ui5-link>
+              <ui5-link href="https://github.com/sy-uname1968/fm-advice-generator-app/tree/main" target="_blank">GitHub</ui5-link>
+            </div>
+          </ui5-card>
+          <ui5-card class="small">
+            <ui5-card-header slot="header" title-text="Time tracking dashboard" ></ui5-card-header>
+            <div class="card-content">
+              <h5>App description</h5>
+              <p class="app-description">Html CSS and <strong class="color-red">JS</strong>.  More intensive use of data attributes.  Selectors for CSS initialization for margins, padding and box-sizing are more comprehensive with <i>*, *::before, *::after</i>. First full fledged use of grid layout.  The colored top of the cards is combination of background image (icon) and background color. In JS used <i>fetch</i> to preload json file with data. Also used <i>async await</i> to access preloaded data.</p>
+            </div>
+            <div class="links">
+              <ui5-link href="https://sy-uname1968.github.io/fm-time-tracking-dashboard/" target="_blank">App</ui5-link>
+              <ui5-link href="https://github.com/sy-uname1968/fm-time-tracking-dashboard" target="_blank">GitHub</ui5-link>
+            </div>
+          </ui5-card>
+        </div>
+      </ui5-tab>
+    </ui5-tabcontainer>
+  </body>
+</html>
